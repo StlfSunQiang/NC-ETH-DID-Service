@@ -1,0 +1,26 @@
+{
+  "name": "ingottreasure",
+  "version": "1.0.0",
+  "description": "ingotTreasure",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test test/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://10.0.51.197/crosschain/IngotTreasure.git"
+  },
+  "author": "DG",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts-upgradeable": "^4.6.0",
+    "@openzeppelin/hardhat-upgrades": "^1.17.0",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.8",
+    "hardhat": "^2.9.6",
+    "mocha": "^10.0.0"
+  }
+}

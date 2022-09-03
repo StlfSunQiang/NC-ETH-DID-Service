@@ -1,0 +1,10 @@
+主合约和权限合约调用操作流程：
+
+第一步调用主合约setDDC1155Proxy方法，将官方ddc1155合约设置进去
+第二步调用主合约setAuthorityProxyAddress，将权限合约设置进去
+第三步调用权限合约setIPGatheringProxy方法，将主合约地址设置进去
+第四步调用权限合约addAccount方法，添加商城和IP方
+第五步调用主合约safeMint方法进行铸造
+第六步调用主合约setApproval方法进行授权
+第七步调用主合约lockOrder方法进行订单锁定
+第八步调用主合约safeTransferFrom方法进行流转
